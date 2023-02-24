@@ -1,9 +1,10 @@
-# kylin-activation arbitrary file writing vulnerability
+# Kylin OS privilege escalation vulnerability
 
 Author: Set3r.Pan\
 Unit: Kylin Software Co., Ltd.（https://www.kylinos.cn/）
 ## report
 ### Describe
+
 The kylin-activation package is a component used by Kylin OS for authorization verification and activation. The software package does not strictly restrict the legality of the import file operation, so the directory where the system configuration file is located is imported into an illegal configuration file, resulting in the elevation of local privileges of ordinary users.
 
 
